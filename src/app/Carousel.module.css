@@ -1,0 +1,41 @@
+.carousel {
+  position: relative;
+  width: 100%;
+}
+
+.carouselItem {
+  position: relative;
+  width: 100%;
+}
+
+.backgroundImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.carouselImage {
+  display: block;
+  width: 100%;
+}
+
+.buttons {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.btnCircle {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.btnCircle:focus {
+  outline: none;
+}
