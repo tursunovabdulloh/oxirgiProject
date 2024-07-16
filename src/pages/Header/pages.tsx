@@ -6,15 +6,16 @@ export default function Header() {
     <div className="container">
       <section className={style.wrapper}>
         <div className={style.logoDiv}>
-<<<<<<< HEAD
           <h1 className={style.logoText}>SHOP.CO</h1>
-=======
-          <h1 className={style.logoText}>Sofuna</h1>
->>>>>>> b6c16ff3d39fcdad6c52886439ac932cece6bb73
         </div>
         <nav className={style.nav}>
           <ul className={style.list}>
-            <select className={style.navselect}>Shop</select>
+            <select className={style.navselect}>
+              <option>Shop</option>
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
             <li className={style.navList}>On Sale</li>
             <li className={style.navList}>New Arrivals</li>
             <li className={style.navList}>Brands</li>
@@ -28,15 +29,9 @@ export default function Header() {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-<<<<<<< HEAD
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-=======
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
->>>>>>> b6c16ff3d39fcdad6c52886439ac932cece6bb73
           >
             <circle cx="11" cy="11" r="8" />
             <line x1="21" y1="21" x2="16.65" y2="16.65" />

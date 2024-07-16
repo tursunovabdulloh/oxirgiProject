@@ -9,7 +9,7 @@
 }
 ul,
 ol {
-  text-decoration: noen;
+  text-decoration: none;
 }
 a {
   color: transparent;
@@ -19,13 +19,8 @@ li {
   list-style: none;
 }
 .container {
-<<<<<<< HEAD
-  width: 1280px;
-=======
-  width: 1440px;
-  padding: 20px;
->>>>>>> b6c16ff3d39fcdad6c52886439ac932cece6bb73
-  padding-right: 20px;
+  width: 100%;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
